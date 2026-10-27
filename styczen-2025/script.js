@@ -19,6 +19,6 @@ btn.addEventListener("click", () => {
         price = 3000
     }
 
-    result.innerHTML = `Kurs odbędzie się w ${city}. Koszt całkowity: ${price} zł. Płacisz ${amountOfInstallment} rat po ${price / amountOfInstallment} zł.`
+    result.textContent = `Kurs odbędzie się w ${city}. Koszt całkowity: ${price} zł. Płacisz ${amountOfInstallment} rat po ${price / amountOfInstallment} zł.`
     
 });
