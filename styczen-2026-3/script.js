@@ -3,7 +3,7 @@ let obrazy = document.querySelectorAll("img");
 let obraz1 = obrazy[0];
 let obraz2 = obrazy[1];
 let obraz3 = obrazy[2];
-let trojkat = false;
+let trojkat = true;
 let prostokat = false;
 
 obraz2.addEventListener("click", () => {
@@ -27,17 +27,20 @@ let p = document.querySelector("#wynik");
 
 guzik.addEventListener("click", () => {
 
-    let bok1 = Number(document.querySelector("#bok1").textContent);
-    
-    let bok2 = Number(document.querySelector("#bok2").textContent);
+    let bok1 = Number(document.querySelector("#bok1").value);
+    console.log(bok1)
+    let bok2 = Number(document.querySelector("#bok2").value);
+    console.log(bok2)
     if(trojkat) {
         let pole = 0.5 * bok1 * bok2;
-        p.innerHTML += `${pole}`
+        console.log(pole)
+        p.innerHTML = `${pole}`
     }
 
     if(prostokat) {
         let pole = bok1 * bok2;
-        p.innerHTML += `${pole}`
+        console.log(pole)
+        p.innerHTML = `${pole}`
     }
 })
 
