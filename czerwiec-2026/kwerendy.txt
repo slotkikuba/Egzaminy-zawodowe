@@ -1,0 +1,2 @@
+kw1:
+SELECT idObiekt, plik, nazwa FROM obiekty WHERE panstwo = "Islandia";
