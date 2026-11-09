@@ -59,3 +59,7 @@ section {
 aside {
     float: left;
 }
+
+footer {
+    clear: both;
+}
