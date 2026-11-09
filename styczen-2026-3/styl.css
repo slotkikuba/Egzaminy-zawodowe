@@ -42,7 +42,7 @@ p {
 }
 
 .obrazek {
-    box-shadow: 5px 0 5px 0 10px dimgray;
+    box-shadow: 5px 5px 10px dimgray;
     border-radius: 10px;
     margin: 5px;
     cursor: pointer;
